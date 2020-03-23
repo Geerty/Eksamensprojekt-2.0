@@ -22,78 +22,155 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Tbox_Va = New System.Windows.Forms.TextBox()
+        Me.Tbox_Vb = New System.Windows.Forms.TextBox()
+        Me.Tbox_Vc = New System.Windows.Forms.TextBox()
+        Me.Lbl_vinkler = New System.Windows.Forms.Label()
+        Me.Lbl_sider = New System.Windows.Forms.Label()
+        Me.Tbox_Sc = New System.Windows.Forms.TextBox()
+        Me.Tbox_Sb = New System.Windows.Forms.TextBox()
+        Me.Tbox_Sa = New System.Windows.Forms.TextBox()
+        Me.Lbl_Va = New System.Windows.Forms.Label()
+        Me.Lbl_Vb = New System.Windows.Forms.Label()
+        Me.Lbl_Vc = New System.Windows.Forms.Label()
+        Me.Lbl_Sc = New System.Windows.Forms.Label()
+        Me.Lbl_Sb = New System.Windows.Forms.Label()
+        Me.Lbl_Sa = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'Tbox_Va
         '
-        Me.TextBox1.Location = New System.Drawing.Point(57, 124)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.Tbox_Va.Location = New System.Drawing.Point(57, 124)
+        Me.Tbox_Va.Name = "Tbox_Va"
+        Me.Tbox_Va.Size = New System.Drawing.Size(100, 20)
+        Me.Tbox_Va.TabIndex = 0
         '
-        'TextBox2
+        'Tbox_Vb
         '
-        Me.TextBox2.Location = New System.Drawing.Point(57, 161)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 1
+        Me.Tbox_Vb.Location = New System.Drawing.Point(57, 161)
+        Me.Tbox_Vb.Name = "Tbox_Vb"
+        Me.Tbox_Vb.Size = New System.Drawing.Size(100, 20)
+        Me.Tbox_Vb.TabIndex = 1
         '
-        'TextBox3
+        'Tbox_Vc
         '
-        Me.TextBox3.Location = New System.Drawing.Point(57, 197)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 2
+        Me.Tbox_Vc.Location = New System.Drawing.Point(57, 197)
+        Me.Tbox_Vc.Name = "Tbox_Vc"
+        Me.Tbox_Vc.Size = New System.Drawing.Size(100, 20)
+        Me.Tbox_Vc.TabIndex = 2
         '
-        'TextBox4
+        'Lbl_vinkler
         '
-        Me.TextBox4.Location = New System.Drawing.Point(57, 330)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 5
+        Me.Lbl_vinkler.AutoSize = True
+        Me.Lbl_vinkler.Location = New System.Drawing.Point(13, 86)
+        Me.Lbl_vinkler.Name = "Lbl_vinkler"
+        Me.Lbl_vinkler.Size = New System.Drawing.Size(39, 13)
+        Me.Lbl_vinkler.TabIndex = 6
+        Me.Lbl_vinkler.Text = "Vinkler"
         '
-        'TextBox5
+        'Lbl_sider
         '
-        Me.TextBox5.Location = New System.Drawing.Point(57, 294)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 4
+        Me.Lbl_sider.AutoSize = True
+        Me.Lbl_sider.Location = New System.Drawing.Point(13, 241)
+        Me.Lbl_sider.Name = "Lbl_sider"
+        Me.Lbl_sider.Size = New System.Drawing.Size(31, 13)
+        Me.Lbl_sider.TabIndex = 10
+        Me.Lbl_sider.Text = "Sider"
         '
-        'TextBox6
+        'Tbox_Sc
         '
-        Me.TextBox6.Location = New System.Drawing.Point(57, 257)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 3
+        Me.Tbox_Sc.Location = New System.Drawing.Point(57, 352)
+        Me.Tbox_Sc.Name = "Tbox_Sc"
+        Me.Tbox_Sc.Size = New System.Drawing.Size(100, 20)
+        Me.Tbox_Sc.TabIndex = 9
         '
-        'Label1
+        'Tbox_Sb
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(13, 86)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Label1"
+        Me.Tbox_Sb.Location = New System.Drawing.Point(57, 316)
+        Me.Tbox_Sb.Name = "Tbox_Sb"
+        Me.Tbox_Sb.Size = New System.Drawing.Size(100, 20)
+        Me.Tbox_Sb.TabIndex = 8
+        '
+        'Tbox_Sa
+        '
+        Me.Tbox_Sa.Location = New System.Drawing.Point(57, 279)
+        Me.Tbox_Sa.Name = "Tbox_Sa"
+        Me.Tbox_Sa.Size = New System.Drawing.Size(100, 20)
+        Me.Tbox_Sa.TabIndex = 7
+        '
+        'Lbl_Va
+        '
+        Me.Lbl_Va.AutoSize = True
+        Me.Lbl_Va.Location = New System.Drawing.Point(29, 127)
+        Me.Lbl_Va.Name = "Lbl_Va"
+        Me.Lbl_Va.Size = New System.Drawing.Size(14, 13)
+        Me.Lbl_Va.TabIndex = 11
+        Me.Lbl_Va.Text = "A"
+        '
+        'Lbl_Vb
+        '
+        Me.Lbl_Vb.AutoSize = True
+        Me.Lbl_Vb.Location = New System.Drawing.Point(29, 164)
+        Me.Lbl_Vb.Name = "Lbl_Vb"
+        Me.Lbl_Vb.Size = New System.Drawing.Size(14, 13)
+        Me.Lbl_Vb.TabIndex = 12
+        Me.Lbl_Vb.Text = "B"
+        '
+        'Lbl_Vc
+        '
+        Me.Lbl_Vc.AutoSize = True
+        Me.Lbl_Vc.Location = New System.Drawing.Point(29, 200)
+        Me.Lbl_Vc.Name = "Lbl_Vc"
+        Me.Lbl_Vc.Size = New System.Drawing.Size(14, 13)
+        Me.Lbl_Vc.TabIndex = 13
+        Me.Lbl_Vc.Text = "C"
+        '
+        'Lbl_Sc
+        '
+        Me.Lbl_Sc.AutoSize = True
+        Me.Lbl_Sc.Location = New System.Drawing.Point(29, 355)
+        Me.Lbl_Sc.Name = "Lbl_Sc"
+        Me.Lbl_Sc.Size = New System.Drawing.Size(13, 13)
+        Me.Lbl_Sc.TabIndex = 16
+        Me.Lbl_Sc.Text = "c"
+        '
+        'Lbl_Sb
+        '
+        Me.Lbl_Sb.AutoSize = True
+        Me.Lbl_Sb.Location = New System.Drawing.Point(29, 319)
+        Me.Lbl_Sb.Name = "Lbl_Sb"
+        Me.Lbl_Sb.Size = New System.Drawing.Size(13, 13)
+        Me.Lbl_Sb.TabIndex = 15
+        Me.Lbl_Sb.Text = "b"
+        '
+        'Lbl_Sa
+        '
+        Me.Lbl_Sa.AutoSize = True
+        Me.Lbl_Sa.Location = New System.Drawing.Point(29, 282)
+        Me.Lbl_Sa.Name = "Lbl_Sa"
+        Me.Lbl_Sa.Size = New System.Drawing.Size(13, 13)
+        Me.Lbl_Sa.TabIndex = 14
+        Me.Lbl_Sa.Text = "a"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Lbl_Sc)
+        Me.Controls.Add(Me.Lbl_Sb)
+        Me.Controls.Add(Me.Lbl_Sa)
+        Me.Controls.Add(Me.Lbl_Vc)
+        Me.Controls.Add(Me.Lbl_Vb)
+        Me.Controls.Add(Me.Lbl_Va)
+        Me.Controls.Add(Me.Lbl_sider)
+        Me.Controls.Add(Me.Tbox_Sc)
+        Me.Controls.Add(Me.Tbox_Sb)
+        Me.Controls.Add(Me.Tbox_Sa)
+        Me.Controls.Add(Me.Lbl_vinkler)
+        Me.Controls.Add(Me.Tbox_Vc)
+        Me.Controls.Add(Me.Tbox_Vb)
+        Me.Controls.Add(Me.Tbox_Va)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -101,11 +178,18 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents Tbox_Va As TextBox
+    Friend WithEvents Tbox_Vb As TextBox
+    Friend WithEvents Tbox_Vc As TextBox
+    Friend WithEvents Lbl_vinkler As Label
+    Friend WithEvents Lbl_sider As Label
+    Friend WithEvents Tbox_Sc As TextBox
+    Friend WithEvents Tbox_Sb As TextBox
+    Friend WithEvents Tbox_Sa As TextBox
+    Friend WithEvents Lbl_Va As Label
+    Friend WithEvents Lbl_Vb As Label
+    Friend WithEvents Lbl_Vc As Label
+    Friend WithEvents Lbl_Sc As Label
+    Friend WithEvents Lbl_Sb As Label
+    Friend WithEvents Lbl_Sa As Label
 End Class
